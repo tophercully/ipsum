@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${overusedGrotesk.className} flex h-fit min-h-[100svh] w-screen flex-col items-center justify-center overflow-y-auto p-4 pt-0 antialiased md:p-10`}
+        className={`${overusedGrotesk.className} flex h-fit min-h-[100svh] w-screen flex-col items-center justify-center overflow-y-auto bg-base-100 p-4 pt-0 antialiased md:p-10`}
       >
         {children}
         <Analytics />
