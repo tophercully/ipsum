@@ -79,12 +79,14 @@ const DocsPage = () => {
           <h3 className="text-lg font-medium">Parameters</h3>
           <ul className="mb-4 list-disc pl-5">
             <li>
-              <code className="rounded bg-base-100 px-2 py-1">min</code> - The
-              minimum character length of the ipsum
+              <code className="rounded bg-base-100 px-2 py-1">min</code>{" "}
+              {`- The
+              minimum character length of the ipsum (optional)`}
             </li>
             <li>
-              <code className="rounded bg-base-100 px-2 py-1">max</code> - The
-              maximum character length of the ipsum
+              <code className="rounded bg-base-100 px-2 py-1">max</code>{" "}
+              {`- The
+              maximum character length of the ipsum (optional)`}
             </li>
           </ul>
           <h3 className="text-lg font-medium">Response</h3>

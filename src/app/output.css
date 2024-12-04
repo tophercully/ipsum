@@ -570,6 +570,10 @@ video {
   pointer-events: none;
 }
 
+.visible {
+  visibility: visible;
+}
+
 .fixed {
   position: fixed;
 }
@@ -628,10 +632,6 @@ video {
 
 .mb-4 {
   margin-bottom: 1rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
 }
 
 .mr-auto {
@@ -989,6 +989,11 @@ video {
   color: rgb(4 4 3 / var(--tw-text-opacity, 1));
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
@@ -1060,11 +1065,6 @@ body {
 .hover\:text-base-500:hover {
   --tw-text-opacity: 1;
   color: rgb(150 129 110 / var(--tw-text-opacity, 1));
-}
-
-.hover\:text-base-600:hover {
-  --tw-text-opacity: 1;
-  color: rgb(118 101 86 / var(--tw-text-opacity, 1));
 }
 
 .hover\:underline:hover {

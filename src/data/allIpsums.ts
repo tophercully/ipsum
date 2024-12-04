@@ -73,6 +73,42 @@ The landscape changed dramatically as we entered the mountains. Sheer cliffs ros
 In the late afternoon, we arrived at our destination: a secluded cabin overlooking a serene lake. The water mirrored the surrounding trees and sky, creating an almost surreal scene. It was the perfect place to unwind after a long drive.
 
 As the sun set, we gathered around a small fire, sharing stories and laughter. The stars above seemed brighter than ever, untouched by city lights. It was a day to remember—a reminder of the beauty that lies in the journey, not just the destination.`,
+  `The dog barked at the mail truck.`,
+  `Check the schedule for next week.`,
+  `The stars were barely visible tonight.`,
+  `Don't forget to bring your ID badge.`,
+  `They walked quietly through the museum.`,
+  `The meeting is set for 3:00 PM in the conference room on the second floor.`,
+  `He opened the book and traced his fingers over the faded ink of an old map.`,
+  `A light drizzle fell as commuters hurried toward the subway entrance.`,
+  `Ingredients should be at room temperature before you begin mixing them together.`,
+  `Turn right after the gas station; it's the third house on the left.`,
+  `For the perfect scrambled eggs, start by whisking them in a bowl with a splash of milk and a pinch of salt. Heat a non-stick pan over medium-low heat, adding a pat of butter. Once the butter melts, pour in the eggs and stir gently until they are soft and fluffy.`,
+  `She stood at the edge of the cliff, the wind tugging at her hair. Below, the ocean churned and roared, waves crashing against jagged rocks. Despite the chaos below, she felt an odd sense of calm, as though the storm reflected her own thoughts.`,
+  `The café was tucked away on a quiet side street, its sign barely visible among the ivy-covered walls. Inside, the aroma of freshly brewed coffee mingled with the sweet scent of pastries. It was the kind of place you'd stumble upon by accident and remember forever.`,
+  `If your device isn't responding, try restarting it by holding down the power button for 10 seconds. If that doesn't resolve the issue, check for any pending updates in the settings menu. Updates often include fixes for common bugs.`,
+  `Sometimes, the smallest moments stick with you. A smile from a stranger, a quiet walk in the park, or the sound of rain on the window—each leaves an imprint that lingers long after the day has passed.`,
+  `The library was silent except for the faint rustling of pages. Rows upon rows of books stretched into the dimly lit aisles, their spines weathered with age. In the far corner, a lone figure sat hunched over a desk, scribbling notes into a leather-bound journal.
+
+Outside, the rain fell steadily, tapping against the tall arched windows. It was the perfect setting for losing oneself in a story, and she had been here for hours. Each book she pulled from the shelves seemed to carry its own secrets, waiting to be uncovered.
+
+As the clock chimed in the distance, she glanced up. Time had slipped away again, but she didn't mind. The world outside could wait.`,
+  `Setting up your new home Wi-Fi is simple and takes just a few minutes. Start by connecting the modem to the router using the provided Ethernet cable. Then, plug both devices into a power outlet and switch them on.
+
+Wait until the indicator lights on the router turn green, signaling it's ready to connect. Open your device's Wi-Fi settings and look for the network name listed on the router label. Enter the password provided to complete the setup.
+
+For additional security, it's recommended to change the default network name and password. This can be done through the router's admin panel, accessible via a web browser.`,
+  `Autumn has a way of transforming the world into a living canvas. Leaves shift from vibrant greens to deep reds, burnt oranges, and golden yellows. The air turns crisp, carrying the earthy aroma of fallen leaves and distant woodsmoke.
+
+Walks through the forest become journeys through a kaleidoscope of color. Every step kicks up a crunch, and sunlight filters through the thinning canopy, creating patterns that dance on the ground.
+
+Animals sense the change too. Squirrels scurry to gather acorns, while birds prepare for their long migrations south. The whole ecosystem seems to buzz with quiet urgency, as though it knows the first frost isn't far away.
+
+For people, autumn brings its own traditions. Apple picking, pumpkin carving, and sipping warm cider by the fire are staples of the season. There's a sense of nostalgia in the air, a gentle reminder of the passage of time.
+
+Yet, it's also a season of preparation. Gardens are cleared, gutters cleaned, and windows sealed against the coming cold. In its beauty, autumn carries an undertone of practicality—nature's reminder that winter is on its way.
+
+As the days grow shorter and nights longer, we're reminded to slow down. It's a time for reflection, for gathering close to loved ones, and for finding beauty in the inevitable cycles of change.`,
 ];
 
 export default allIpsums;
