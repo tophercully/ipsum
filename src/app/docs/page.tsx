@@ -1,6 +1,14 @@
 import allIpsums from "@/data/allIpsums";
 import Link from "next/link";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "API Documentation - Ipsum Else",
+  description:
+    "A simple API for fetching dynamically filler text in your project",
+};
+
 const DocsPage = () => {
   return (
     <div className="flex max-w-[80ch] flex-col gap-8">
