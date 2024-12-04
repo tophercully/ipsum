@@ -3,6 +3,7 @@ import IpsumCard from "@/components/IpsumCard";
 import SortDropdown from "@/components/SortDropdown";
 import allIpsums from "@/data/allIpsums";
 import { stringToIpsum } from "@/util/stringToIpsum";
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Home() {
@@ -29,6 +30,12 @@ export default function Home() {
           {` Here's a collection of richer text filler that reads like real
           english, to fill space until the real content comes.`}
         </h3>
+        <Link
+          href="/docs"
+          className="text-base-400 underline hover:text-base-500"
+        >
+          API Docs
+        </Link>
       </div>
       <div
         id="content"
