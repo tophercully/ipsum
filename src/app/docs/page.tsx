@@ -8,8 +8,13 @@ const DocsPage = () => {
         id="header"
         className="flex flex-col gap-2"
       >
-        <h1 className="text-2xl font-bold">Ipsum Else</h1>
-        <span className="text-5xl">API Documentation </span>
+        <Link
+          href={"/"}
+          className="text-2xl font-bold"
+        >
+          Ipsum Else
+        </Link>
+        <h1 className="text-5xl">API Documentation </h1>
         <span className="max-w-[60ch] text-2xl">
           <span>
             A simple API for fetching dynamically filler text in your project
