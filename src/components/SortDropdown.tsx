@@ -29,7 +29,7 @@ const SortDropdown: React.FC<Props> = ({
   };
 
   return (
-    <div className="flex flex-wrap items-center gap-8 rounded-xl bg-base-150 px-4 py-1 shadow-md">
+    <div className="flex flex-wrap items-center gap-8 rounded-xl bg-base-50 px-4 py-1 shadow-md">
       <div className="mr-auto flex items-end justify-between gap-8 md:w-1/2">
         <button
           onClick={exportIpsums}
@@ -42,12 +42,17 @@ const SortDropdown: React.FC<Props> = ({
         id="dropdowns"
         className="flex items-center gap-8"
       >
-        <div className="flex items-center gap-2">
-          <label htmlFor="sort">Sort by:</label>
+        <div className="flex flex-wrap items-center gap-2">
+          <label
+            htmlFor="sort"
+            className="text-nowrap text-base-700"
+          >
+            Sort by:
+          </label>
           <select
             id="sort"
             value={sortMethod}
-            className="bg-base-150 py-2"
+            className="bg-base-50 py-2"
             onChange={(e) =>
               setSortMethod(
                 e.target.value as
@@ -64,12 +69,17 @@ const SortDropdown: React.FC<Props> = ({
             <option value="paragraphs">Paragraph Count</option>
           </select>
         </div>
-        <div className="flex items-center gap-2">
-          <label htmlFor="direction">Direction:</label>
+        <div className="flex flex-wrap items-center gap-2">
+          <label
+            htmlFor="direction"
+            className="text-base-700"
+          >
+            Direction:
+          </label>
           <select
             id="direction"
             value={sortDirection}
-            className="bg-base-150 py-2"
+            className="bg-base-50 py-2"
             onChange={(e) => setSortDirection(e.target.value as "asc" | "desc")}
           >
             <option value="asc">Ascending</option>

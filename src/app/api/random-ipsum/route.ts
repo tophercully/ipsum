@@ -43,8 +43,5 @@ export async function GET(request: NextRequest) {
   const randomIpsum =
     validIpsums[Math.floor(Math.random() * validIpsums.length)];
 
-  return NextResponse.json({
-    ipsum: randomIpsum,
-    length: randomIpsum.length,
-  });
+  return NextResponse.json(randomIpsum);
 }
