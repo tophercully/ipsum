@@ -10,9 +10,9 @@ const IpsumCard: React.FC<Props> = ({ ipsum }) => {
     label,
     value,
   }) => (
-    <div className="border px-2 py-1 text-center">
-      <span className="text-base-500">{label}:</span>{" "}
-      <span className="font-medium text-base-950">{value}</span>
+    <div className="bg-base-50 px-2 py-1 text-center">
+      <span className="font-medium text-base-950">{value}</span>{" "}
+      <span className="text-base-500">{label}</span>{" "}
     </div>
   );
 
@@ -29,10 +29,20 @@ const IpsumCard: React.FC<Props> = ({ ipsum }) => {
   };
 
   return (
-    <div className="flex flex-col rounded-lg border bg-white shadow-lg">
+    <div className="flex flex-col overflow-hidden rounded-xl border bg-white shadow-lg">
+      <div className="flex p-4">
+        <div className="max-h-[40svh] w-full overflow-y-auto rounded-md bg-base-50 p-2 text-base-700">
+          {ipsum.value.split("\n").map((line, index) => (
+            <span key={index}>
+              {line}
+              <br />
+            </span>
+          ))}
+        </div>
+      </div>
       <div
         id="stats"
-        className="mb-2 grid grid-cols-2 items-center justify-between"
+        className="grid grid-cols-2 items-center justify-between gap-0.5 bg-base-100"
       >
         <Stat
           label="Characters"
@@ -50,23 +60,13 @@ const IpsumCard: React.FC<Props> = ({ ipsum }) => {
           label="Paragraphs"
           value={ipsum.paragraphs}
         />
+        <button
+          onClick={copyToClipboard}
+          className="col-span-2 flex w-full items-center justify-center bg-base-50 py-3 font-medium text-base-300 hover:bg-base-100 hover:text-base-500 active:bg-base-150"
+        >
+          <Copy className="h-full p-1" /> Copy
+        </button>
       </div>
-      <div className="mb-4 flex px-4">
-        <div className="max-h-[30svh] overflow-y-auto rounded-md bg-base-50 p-2">
-          {ipsum.value.split("\n").map((line, index) => (
-            <span key={index}>
-              {line}
-              <br />
-            </span>
-          ))}
-        </div>
-      </div>
-      <button
-        onClick={copyToClipboard}
-        className="mx-auto mb-4 mt-auto flex items-center justify-center rounded-md border bg-base-950 px-3 py-2 font-medium text-white hover:bg-base-800 active:bg-base-700"
-      >
-        <Copy className="h-full p-1" /> Copy
-      </button>
     </div>
   );
 };
