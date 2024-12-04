@@ -11,7 +11,7 @@ const overusedGrotesk = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Ipsome",
+  title: "Ipsum Else",
   description: "Filler Text for Web Developers",
 };
 

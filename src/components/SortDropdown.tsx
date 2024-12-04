@@ -58,10 +58,10 @@ const SortDropdown: React.FC<Props> = ({
               )
             }
           >
-            <option value="length">Length</option>
-            <option value="words">Words</option>
-            <option value="sentences">Sentences</option>
-            <option value="paragraphs">Paragraphs</option>
+            <option value="length">Character Length</option>
+            <option value="words">Word Count</option>
+            <option value="sentences">Sentence Count</option>
+            <option value="paragraphs">Paragraph Count</option>
           </select>
         </div>
         <div className="flex items-center gap-2">
