@@ -47,7 +47,7 @@ const DocsPage = () => {
             >{`https://ipsums.chrismccully.com/api/get-all-ipsums`}</Link>
           </span>
         </section>
-        <section className="mb-8 rounded-md bg-base-50 p-4">
+        <section className="rounded-md bg-base-50 p-4">
           <h2 className="text-xl font-semibold">GET /api/get-ipsum/:id</h2>
           <p className="mb-4">Fetches a specific ipsum string by its ID</p>
           <h3 className="text-lg font-medium">Parameters</h3>
@@ -70,7 +70,7 @@ const DocsPage = () => {
             >{`https://ipsums.chrismccully.com/api/get-ipsum/4`}</Link>
           </span>
         </section>
-        <section className="mb-8 rounded-md bg-base-50 p-4">
+        <section className="rounded-md bg-base-50 p-4">
           <h2 className="text-xl font-semibold">GET /api/random-ipsum</h2>
           <p className="mb-4">
             Fetches a random ipsum string, limited by a minimum and maximum
