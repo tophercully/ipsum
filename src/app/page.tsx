@@ -24,10 +24,10 @@ export default function Home() {
         className="flex flex-col gap-2"
       >
         <h1 className="text-2xl font-bold">Ipsum Else</h1>
-        <h2 className="text-5xl">More like Bore 'em Ipsum. </h2>
+        <h2 className="text-5xl">{`More like Bore 'em Ipsum.`} </h2>
         <h3 className="max-w-[60ch] text-2xl">
-          Here's a collection of richer text filler that reads like real
-          english, to fill space until the real content comes.
+          {` Here's a collection of richer text filler that reads like real
+          english, to fill space until the real content comes.`}
         </h3>
       </div>
       <div
