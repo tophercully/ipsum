@@ -30,7 +30,7 @@ const IpsumCard: React.FC<Props> = ({ ipsum }) => {
 
   return (
     <div className="flex flex-col overflow-hidden rounded-xl border bg-white shadow-lg">
-      <div className="flex p-4">
+      <div className="mb-auto flex p-4">
         <div className="max-h-[40svh] w-full overflow-y-auto rounded-md bg-base-50 p-2 text-base-700">
           {ipsum.value.split("\n").map((line, index) => (
             <span key={index}>
